@@ -1,0 +1,58 @@
+
+
+.container{
+    max-width: 400px;
+     min-height: 450px;
+     background-color: aquamarine;
+      margin: 0 auto;
+       box-shadow:  0 0 10px blue;
+        margin-top: 50px;
+         padding: 15px 50px;
+  
+      
+  }
+  .text-center{
+     text-align: center;
+     color: blue;
+  }
+  .btn{
+     background-color:blue;
+      
+      border-radius: 4px;
+      color:  aquamarine;
+       box-shadow: 0 0 4px gray;
+       font-weight: bold;
+       font-size: 15px;
+      
+        
+      
+  }
+  .expense-container{
+    display: flex;
+     justify-content:space-around;
+    
+     box-shadow:  0 0 10px gray;
+      background-color: white;
+  
+  }
+  
+  .transaction-form input{
+  
+    width: 100%;
+    height: 20px;
+  }
+  .transaction-list{
+    margin:0;
+    padding: 0;
+  
+    
+  }
+  .transaction-list > li{
+    display: flex;
+    justify-content: space-between;
+     background-color: white;
+     box-shadow:  0 0 10px gray;
+     margin: 5px 0;
+      padding: 10px;
+    
+  }
